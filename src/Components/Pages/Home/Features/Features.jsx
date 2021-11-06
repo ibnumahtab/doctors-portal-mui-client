@@ -1,12 +1,12 @@
 import { Button, Container, Grid, Typography } from '@mui/material';
 import { Box } from '@mui/system';
-import { blueGrey, cyan } from '@mui/material/colors';
+import { blueGrey } from '@mui/material/colors';
 import React from 'react';
 import treatment from '../../../../images/treatment.png';
 
 const Features = () => {
 	return (
-		<Container sx={{ py: 10 }}>
+		<Container sx={{ pt: 10, pb: 20 }}>
 			<Grid
 				container
 				spacing={4}
@@ -15,7 +15,7 @@ const Features = () => {
 				<Grid item xs={5}>
 					<img style={{ width: '100%' }} src={treatment} alt='' />
 				</Grid>
-				<Grid item xs={6}>
+				<Grid item xs={7}>
 					<Box sx={{ textAlign: 'left' }}>
 						<Typography
 							variant='h2'
@@ -39,11 +39,9 @@ const Features = () => {
 							veritatis labore. A dolorum maxime nobis corrupti.
 							Ducimus facilis in sit, laborum quod ex reiciendis
 							ad soluta inventore architecto praesentium delectus
-							eveniet? Earum, suscipit! Beatae, laudantium
-							temporibus voluptas in excepturi neque nulla
-							expedita delectus minus ullam voluptates a atque
-							quis!
+							eveniet? Earum, suscipit!
 						</Typography>
+						<br />
 						<Button variant='contained' size='large' sx={{ my: 3 }}>
 							Learn More
 						</Button>
